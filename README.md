@@ -5,7 +5,8 @@ Linkedin: www.linkedin.com/in/maicoldsc
 
 
 Proyecto de Página Web
-Este proyecto es una página web simple desarrollada utilizando HTML, CSS y JavaScript. Su propósito principal es demostrar habilidades básicas en diseño web y programación del lado del cliente, integrando elementos interactivos y un diseño atractivo.
+Este proyecto es una página web simple desarrollada utilizando HTML, CSS y JavaScript. Su propósito principal es 
+demostrar habilidades básicas en diseño web y programación, integrando elementos interactivos y un diseño atractivo.
 
 🖥️ Características
 HTML: Estructuración de contenido.
