@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Maicol</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">About Me</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#proyectos" onclick="seleccionar()">Projects</a></li>   
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/IMG_1129.jpg" alt="">
+            </div>
+            <h1>Maicol Siachoque</h1>
+            <h2>System Engineer - Frontend Developer</h2>
+            <div class="redes">
+                <a href="https://github.com/MaicolDSC"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/maicoldavidsc"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/maicol-siachoque-77564427a/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/maicol_siachoque/?hl=es"><i class="fa-brands fa-instagram"></i></a>  
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About Me</h2>
+            <p><span>Hello, I'm Maicol Siachoque. </span>I am 23 years old, 
+                I am from Sogamoso, Colombia. As a self-taught and 
+                highly creative person, I constantly strive to learn 
+                and improve every day. My passion lies in frontend 
+                development, where I focus on providing the best
+                 visual experiences to users, ensuring that every 
+                 project I work on is engaging and impactful.
+                .</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Email</strong>
+                            mdavidcubides@gmail.com
+                        </li>
+                       
+                        <li>
+                            <strong>Address</strong>
+                            Nobsa, Boyacá
+                        </li>
+                        <li>
+                            <strong>Post</strong>
+                            <span>Frontend Developer</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>GYM</span>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Skill izquierdo -->
+                <div class="col">
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- Skills derecho -->
+                <div class="col">
+            
+                    <div class="skill">
+                        <span>Node.js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MongoDB</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION PROYECTOS -->
+    <section id="proyectos" class="proyectos">
+        <div class="contenido-seccion">
+            <h2>Projects</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://github.com/MaicolDSC/GameSnake.git" target="_blank" rel="noopener noreferrer">
+                        <img src="img/Snake_OG-logo.jpg" alt="Game Snake"> 
+                    <div class="overlay">
+                        <h3>Game Snake</h3>
+                        <p>CSS + HTML + JavaScript</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-top">
+            <!-- Botón para subir -->
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+        </div>
+    
+        <div class="footer-bottom">
+            <!-- Redes sociales y contacto -->
+            <div class="contacto-redes">
+                
+                <div class="redes">
+                    <a href="https://github.com/MaicolDSC" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/maicoldavidsc" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/maicol-siachoque-77564427a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/maicol_siachoque/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+    
+            <!-- Enlaces útiles -->
+            <div class="enlaces">
+                <a href="#inicio">Home</a>
+                <a href="#">Donate</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
